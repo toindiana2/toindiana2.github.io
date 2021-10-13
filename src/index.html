@@ -1,214 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Я Саша Яквоенко. А это мой первый сайт. Данный сайт является моей отпраной точкой в мир веб-разработки. 
-    Здесь будет появляться инофрмация обо мне">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Я Саша Яквоенко. А это мой первый сайт. Данный сайт является моей отпраной точкой в мир веб-разработки. 
+    Здесь будет появляться инофрмация обо мне"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Мой первый сайт</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo" style="display: inline-block">Саша Яковенко</div>
-            <div style="display: inline-block" class="menu">
-                <ul style="list-style-type: none;">
-                    <li style="display: inline-block">Обо мне</li>
-                    <li style="display: inline-block">Услуги</li>
-                    <li style="display: inline-block">Кейсы</li>
-                    <li style="display: inline-block">Прайс</li>
-                    <li style="display: inline-block">Отзывы</li>
-                    <li style="display: inline-block">Контакты</li>
-                </ul>
-            </div>
-        </nav>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav_wrapper container">
+          <div class="logo">Саша Яковенко</div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Обо мне</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Кейсы</a></li>
+              <li><a href="#">Прайс</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    
+
     <main>
-        <div class="main_start">
-            <h1>Привет <br> Я Саша Яковенко</h1>
-            <p>Начинающий веб-разработчик</p>
-            <form action="#">
-                <input type="submit" value="Обо мне">
-                <input type="submit" value="Мои работы">
-            </form>
+      <section class="main">
+        <div class="start_info">
+          <h1>
+            Привет <br />
+            Я Саша Яковенко
+          </h1>
+          <p>Начинающий веб-разработчик</p>
+          <div class="input">
+            <input type="button" value="Обо мне" />
+            <input type="button" value="Мои работы" />
+          </div>
+        </div>
+      </section>
+      <div class="main_about_me">
+        <h2>Обо мне</h2>
+        <br />
+        <img src="#" alt="тут картинка" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia
+          voluptatem aperiam nulla ut ducimus sequi! Quod labore nemo earum,
+          incidunt nostrum, quia debitis a reiciendis unde maxime accusamus
+          dolores tenetur repudiandae nihil?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia
+          voluptatem aperiam nulla ut ducimus sequi! Quod labore nemo earum,
+          incidunt nostrum, quia debitis a reiciendis unde maxime accusamus
+          dolores tenetur repudiandae nihil?
+        </p>
+        <form action="#">
+          <input type="submit" value="Скачать резюме" />
+        </form>
+      </div>
+
+      <div class="main_skills">
+        <h2>Что я умею</h2>
+        <div style="border: 1px solid black" class="skills_item">
+          <img src="#" alt="тут картинка про дизайн" />
+          <h4>Веб дизайн</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            corrupti. Officiis fugit nulla et nostrum?
+          </p>
+        </div>
+        <div style="border: 1px solid black" class="skills_item">
+          <img src="#" alt="тут картинка про разработку" />
+          <h4>Разработка</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            corrupti. Officiis fugit nulla et nostrum?
+          </p>
+        </div>
+        <div style="border: 1px solid black" class="skills_item">
+          <img src="#" alt="тут картинка про CEO-оптимизацию" />
+          <h4>CEO-оптимизация</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            corrupti. Officiis fugit nulla et nostrum?
+          </p>
+        </div>
+        <div style="border: 1px solid black" class="skills_item">
+          <img src="#" alt="тут картинка про маркетинг" />
+          <h4>маркетинг</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            corrupti. Officiis fugit nulla et nostrum?
+          </p>
+        </div>
+      </div>
+
+      <div class="main_cases">
+        <h2>Кейсы</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+          iusto, repellat impedit expedita maiores maxime modi aspernatur
+          perferendis.
+        </p>
+        <div class="cases_slider">
+          <img src="#" alt="картинки слайдера" />
+        </div>
+        <div style="border: 1px solid black" class="about_site">
+          <h5>Клиент:</h5>
+          <p>Какя-то компания</p>
+          <h5>Адрес сайта:</h5>
+          <p>https://www.yandex.ru</p>
+          <form target="_blank" action="https://www.yandex.ru" method="post">
+            <input type="submit" value="Открыть сайт" />
+          </form>
+        </div>
+      </div>
+
+      <div class="main_price">
+        <h2>Расчет стоимости</h2>
+        <form action="#">
+          <h6>Тип сайта</h6>
+          <select name="type_site" id="">
+            <option selected disabled hidden value="сайт-визитка">
+              Выберите пункт...
+            </option>
+            <option value="сайт-визитка">Сайт-визитка</option>
+            <option value="Корпоративный сайт">Корпоративный сайт</option>
+            <option value="Сайт-каталог">Сайт-каталог</option>
+            <option value="Сайт-портфолио">Сайт-портфолио</option>
+            <option value="Промо-сайт">Промо-сайт</option>
+            <option value="Лендинг">Лендинг</option>
+            <option value="Интернет магазин">Интернет магазин</option>
+          </select>
+          <h6>Дизайн</h6>
+          <select name="design" id="">
+            <option selected disabled hidden value="сайт-визитка">
+              Выберите пункт...
+            </option>
+            <option value="Готовый макет">Готовый макет</option>
+            <option value="Создание макета">Создание макета</option>
+            <option value="Совместное создание макета">
+              Совместное создание макета
+            </option>
+          </select>
+          <h6>Адаптивность</h6>
+          <select name="adaptive" id="">
+            <option selected disabled hidden value="сайт-визитка">
+              Выберите пункт...
+            </option>
+            <option value="Нужна адаптивная верстка">
+              Нужна адаптивная верстка
+            </option>
+            <option value="Без адаптивной верстки">
+              Без адаптивной верстки
+            </option>
+          </select>
+        </form>
+        <div class="price_total">
+          <div class="term">
+            <p>Сроки</p>
+            <p>0</p>
+          </div>
+          <div class="price">
+            <p>Стоимость</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="statistics">
+        <h2>Статистика</h2>
+        <div style="border: 1px solid black" class="statistics_item">
+          <img src="#" alt=":-)" />
+          <h3>120</h3>
+          <p>Счастливых клиентов</p>
+        </div>
+        <div style="border: 1px solid black" class="statistics_item">
+          <img src="#" alt="</>" />
+          <h3>4,600</h3>
+          <p>Часов работы</p>
+        </div>
+        <div style="border: 1px solid black" class="statistics_item">
+          <img src="#" alt="Галочка" />
+          <h3>340</h3>
+          <p>Проектов завершено</p>
+        </div>
+        <div style="border: 1px solid black" class="statistics_item">
+          <img src="#" alt="Кубок" />
+          <h3>23</h3>
+          <p>Наград получено</p>
+        </div>
+      </div>
+
+      <div class="comment">
+        <h2>Отзывы</h2>
+        <img src="#" alt="фото" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente
+          odit nemo iure ex porro atque, ipsam nihil fuga praesentium non totam
+          cumque facere hic dolor quidem similique dicta sunt?
+        </p>
+        <p class="who_comments">
+          <span style="font-weight: 700">Дмитрий</span>, Директор ПАО "ТГК-1"
+        </p>
+      </div>
+
+      <div class="main_contacts">
+        <h2>Мои контакты</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          totam voluptate placeat, quae libero veniam.
+        </p>
+
+        <div class="contacts_items">
+          <img src="#" alt="Геолокация" />
+          <p>
+            Мурманск<br />
+            Ленинский проспект 55а
+          </p>
+        </div>
+        <div class="contacts_items">
+          <img src="#" alt="Эл.адрес" />
+          <p>yakovenko2.95@yandex.ru</p>
+        </div>
+        <div class="contacts_items">
+          <img src="#" alt="Номер" />
+          <p>+7 999 999 99 99</p>
         </div>
 
-        <div class="main_about_me">
-            <h2>Обо мне</h2> <br>
-            <img src="#" alt="тут картинка">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia voluptatem aperiam nulla ut ducimus sequi! 
-                Quod labore nemo earum, incidunt nostrum, quia debitis a reiciendis unde maxime accusamus dolores tenetur repudiandae nihil?
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia voluptatem aperiam nulla ut ducimus sequi! 
-                Quod labore nemo earum, incidunt nostrum, quia debitis a reiciendis unde maxime accusamus dolores tenetur repudiandae nihil?
-            </p>
-            <form action="#">
-                <input type="submit" value="Скачать резюме">
-            </form>
+        <form action="#">
+          <h3>Оставьте мне сообщение</h3>
+          <input type="text" name="name" placeholder="Ваше имя" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea
+            name="message"
+            cols="80"
+            rows="10"
+            placeholder="Сообщение"
+          ></textarea>
+          <br />
+          <input type="submit" value="Отправить" />
+        </form>
+
+        <div class="contacts_social_networks">
+          <a href="#"><img src="#" alt="facebook" /></a>
+          <a href="#"><img src="#" alt="twitter" /></a>
+          <a href="#"><img src="#" alt="dribbble" /></a>
+          <a href="#"><img src="#" alt="github" /></a>
+          <a href="#"><img src="#" alt="instagram" /></a>
+          <a href="#"><img src="#" alt="linkedin" /></a>
         </div>
+      </div>
 
-        <div class="main_skills">
-            <h2>Что я умею</h2>
-            <div style="border: 1px solid black;" class="skills_item">
-                <img src="#" alt="тут картинка про дизайн">
-                <h4>Веб дизайн</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti. Officiis fugit nulla et nostrum?</p>
-            </div>
-            <div style="border: 1px solid black;" class="skills_item">
-                <img src="#" alt="тут картинка про разработку">
-                <h4>Разработка</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti. Officiis fugit nulla et nostrum?</p>
-            </div>
-            <div style="border: 1px solid black;" class="skills_item">
-                <img src="#" alt="тут картинка про CEO-оптимизацию">
-                <h4>CEO-оптимизация</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti. Officiis fugit nulla et nostrum?</p>
-            </div>
-            <div style="border: 1px solid black;" class="skills_item">
-                <img src="#" alt="тут картинка про маркетинг">
-                <h4>маркетинг</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti. Officiis fugit nulla et nostrum?</p>
-            </div>
-        </div>
-
-        <div class="main_cases">
-            <h2>Кейсы</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Repudiandae iusto, repellat impedit expedita maiores maxime modi aspernatur perferendis.
-            </p>
-            <div class="cases_slider">
-                <img src="#" alt="картинки слайдера">
-            </div>
-            <div style="border: 1px solid black;" class="about_site">
-                <h5>Клиент:</h5>
-                <p>Какя-то компания</p>
-                <h5>Адрес сайта:</h5>
-                <p>https://www.yandex.ru</p>
-                <form target="_blank" action="https://www.yandex.ru" method="post">
-                    <input type="submit" value="Открыть сайт">
-                </form>
-            </div>
-        </div>
-
-        <div class="main_price">
-            <h2>Расчет стоимости</h2>
-            <form action="#">
-                <h6>Тип сайта</h6>
-                <select name="type_site" id="">
-                    <option selected disabled hidden value="сайт-визитка">Выберите пункт...</option>
-                    <option value="сайт-визитка">Сайт-визитка</option>
-                    <option value="Корпоративный сайт">Корпоративный сайт</option>
-                    <option value="Сайт-каталог">Сайт-каталог</option>
-                    <option value="Сайт-портфолио">Сайт-портфолио</option>
-                    <option value="Промо-сайт">Промо-сайт</option>
-                    <option value="Лендинг">Лендинг</option>
-                    <option value="Интернет магазин">Интернет магазин</option>
-                </select>
-                <h6>Дизайн</h6>
-                <select name="design" id="">
-                    <option selected disabled hidden value="сайт-визитка">Выберите пункт...</option>
-                    <option value="Готовый макет">Готовый макет</option>
-                    <option value="Создание макета">Создание макета</option>
-                    <option value="Совместное создание макета">Совместное создание макета</option>
-                </select>
-                <h6>Адаптивность</h6>
-                <select name="adaptive" id="">
-                    <option selected disabled hidden value="сайт-визитка">Выберите пункт...</option>
-                    <option value="Нужна адаптивная верстка">Нужна адаптивная верстка</option>
-                    <option value="Без адаптивной верстки">Без адаптивной верстки</option>
-                </select>
-            </form>
-            <div class="price_total">
-                <div class="term">
-                    <p>Сроки</p>
-                    <p>0</p>
-                </div>
-                <div class="price">
-                    <p>Стоимость</p>
-                    <p>0</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="statistics">
-            <h2>Статистика</h2>
-            <div style="border: 1px solid black;" class="statistics_item">
-                <img src="#" alt=":-)">
-                <h3>120</h3>
-                <p>Счастливых клиентов</p>
-            </div>
-            <div style="border: 1px solid black;" class="statistics_item">
-                <img src="#" alt="</>">
-                <h3>4,600</h3>
-                <p>Часов работы</p>
-            </div>
-            <div style="border: 1px solid black;" class="statistics_item">
-                <img src="#" alt="Галочка">
-                <h3>340</h3>
-                <p>Проектов завершено</p>
-            </div>
-            <div style="border: 1px solid black;" class="statistics_item">
-                <img src="#" alt="Кубок">
-                <h3>23 </h3>
-                <p>Наград получено</p>
-            </div>
-        </div>
-
-        <div class="comment">
-            <h2>Отзывы</h2>
-            <img src="#" alt="фото">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ab sapiente odit nemo iure ex porro atque, ipsam nihil fuga praesentium non totam cumque facere hic dolor quidem similique dicta sunt?
-            </p>
-            <p class="who_comments">
-                <span style="font-weight: 700;">Дмитрий</span>, Директор ПАО "ТГК-1"
-            </p>
-        </div>
-
-        <div class="main_contacts">
-            <h2>Мои контакты</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae totam voluptate placeat, quae libero veniam.</p>
-
-            <div class="contacts_items">
-                    <img src="#" alt="Геолокация">
-                    <p>Мурманск<br> Ленинский проспект 55а</p>
-            </div>
-            <div class="contacts_items">
-                <img src="#" alt="Эл.адрес">
-                <p>yakovenko2.95@yandex.ru</p>
-            </div>
-            <div class="contacts_items">
-                <img src="#" alt="Номер">
-                <p>+7 999 999 99 99</p>
-            </div>
-        
-
-            <form action="#">
-                <h3>Оставьте мне сообщение</h3>
-                <input type="text" name="name" placeholder="Ваше имя">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" cols="80" rows="10" placeholder="Сообщение"></textarea> <br>
-                <input type="submit" value="Отправить">
-            </form>
-
-            <div class="contacts_social_networks">
-                <a href="#"><img src="#" alt="facebook"></a>
-                <a href="#"><img src="#" alt="twitter"></a>
-                <a href="#"><img src="#" alt="dribbble"></a>
-                <a href="#"><img src="#" alt="github"></a>
-                <a href="#"><img src="#" alt="instagram"></a>
-                <a href="#"><img src="#" alt="linkedin"></a>
-            </div>
-        </div>
-
-        <div class="map">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A72273cd7ee8c73811295f76cf3629f99f042453613da33beb55351123c7904d5&amp;source=constructor" 
-            width="100%" height="400" frameborder="0"></iframe>
-        </div>
+      <!-- <div class="map">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A72273cd7ee8c73811295f76cf3629f99f042453613da33beb55351123c7904d5&amp;source=constructor"
+          width="100%"
+          height="400"
+          frameborder="0"
+        ></iframe>
+      </div> -->
     </main>
     <footer>
-        <p>Copyright &copy; Саша Яковенко web-programmer</p>
+      <p>Copyright &copy; Саша Яковенко web-programmer</p>
     </footer>
-    
-</body>
+  </body>
 </html>
