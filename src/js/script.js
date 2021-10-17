@@ -108,8 +108,8 @@ let button_up = document.querySelector(".button_up");
 
 function up () {
     if (window.pageYOffset > 700) {
-    button_up.style.opacity = '0.8'
-  } else { button_up.style.opacity = '0' }
+    button_up.style.visibility = 'visible'
+  } else { button_up.style.visibility = 'hidden' }
 }
 
 button_up.onclick = function () {
